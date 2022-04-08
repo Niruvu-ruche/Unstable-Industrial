@@ -1,0 +1,37 @@
+{
+    "type":"mech",
+    "speed":0.5,
+    "health":135,
+    "armor":0,
+    "rotateSpeed":5,
+    "hitSize":8,
+    "range":128,
+    "commandLimit":0,
+    "rotateShooting":true,
+    "weapons":[
+        {
+            "name":"weapon-alpha",
+            "x":4,
+            "y":2,
+            "reload":15,
+            "inaccuracy":3,
+            "rotate":false,
+            "mirror":true,
+            "alternate":true,
+            "bullet":{
+                "type":"basicBulletType",
+                "damage":9,
+                "speed":2.5,
+                "height":8,
+                "width":6,
+                "lifeTime":150
+            }
+        }
+    ],
+    "research":{
+        "parent":"alpha-factory",
+        "requirements":[
+            { "item" : "copper" , "amount" : 0 }
+        ]
+    }
+}

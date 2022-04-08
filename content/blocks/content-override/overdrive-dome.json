@@ -1,0 +1,10 @@
+{ 
+         "requirements":[
+     {"item":"titanium","amount":130},
+     {"item":"lead","amount":200},
+     {"item":"plastanium","amount":80},
+     {"item":"surge-alloy","amount":120},
+     {"item":"silicon","amount":130},
+     {"item":"monocrystalline-silicon","amount":30}
+]
+}

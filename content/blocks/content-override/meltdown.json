@@ -1,0 +1,10 @@
+{ 
+         "requirements":[
+     {"item":"copper","amount":1200},
+     {"item":"lead","amount":350},
+     {"item":"graphite","amount":300},
+     {"item":"surge-alloy","amount":300},
+     {"item":"silicon","amount":325},
+     {"item":"monocrystalline-silicon","amount":75}
+]
+}

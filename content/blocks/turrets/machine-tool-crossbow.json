@@ -1,0 +1,35 @@
+{
+    "type":"ItemTurret",
+    "health":1420,
+    "size":3,
+    "reloadTime":240,
+    "shootSound":"artillery",
+    "range":320,
+    "innacuracy":0,
+    "recoil":3,
+    "maxAmmo":10,
+    "ammoPerShot":4,
+    "shots":1,
+    "ammoTypes":{
+        "plastanium":{
+            "type":"basicBulletType",
+            "speed":8,
+            "lifeTime":40,
+            "damage":660,
+            "pierceCap":8,
+            "width":6,
+            "height":24,
+            "ammoMultiplier":1,
+            "status":"structural-damage",
+            "statusDuration":450
+        }
+    },
+    "requirements":[
+        { "item" : "copper" , "amount" : 365 },
+        { "item" : "graphite" , "amount" : 330 },
+        { "item" : "titanium" , "amount" : 280 },
+        { "item" : "plastanium" , "amount" : 215 }
+    ],
+    "category":"turret",
+    "research":"fuse"
+}

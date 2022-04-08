@@ -1,0 +1,31 @@
+{
+    "type":"GenericSmelter",
+    "health":245,
+    "itemCapacity":24,
+    "outputItem":{
+        "item":"monocrystalline-silicon",
+        "amount":2
+    },
+    "size":3,
+    "craftTime":75,
+    "consumes":{
+        "power":4,
+        "items":{
+            "items":[
+                {"item":"silicon","amount":6}
+            ]
+        },
+        "liquid":{
+            "liquid":"water",
+            "amount":0.75
+        }
+    },
+    "requirements":[
+        {"item":"graphite","amount":60},
+        {"item":"silicon","amount":80},
+        {"item":"titanium","amount":40},
+        {"item":"plastanium","amount":45}
+    ],
+    "category":"crafting",
+    "research":"silicon-smelter"
+}

@@ -1,0 +1,17 @@
+{
+    "type":"LogicBlock",
+    "range":400,
+    "size":2,
+    "instructionsPerTick":4,
+    "maxInstructionScale":10,
+    "memoryCapacity":256,
+    "requirements":[
+        { "item" : "graphite" , "amount" : 50 },
+        { "item" : "thorium" , "amount" : 60 },
+        { "item" : "phase-fabric" , "amount" : 50 },
+        { "item" : "lead" , "amount" : 210 },
+        { "item" : "monocrystalline-silicon" , "amount" : 40 }
+    ],
+    "category":"logic",
+    "research":"logic-processor"
+}

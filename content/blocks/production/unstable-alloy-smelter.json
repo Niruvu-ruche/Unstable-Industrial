@@ -1,0 +1,31 @@
+{
+    "type":"GenericSmelter",
+    "health":"220",
+    "itemCapacity":30,
+    "outputItem":{
+        "item":"unstable-alloy",
+        "amount":1
+    },
+    "size":3,
+    "craftTime":75,
+    "consumes":{
+        "power":3,
+        "items":{
+            "items":[
+                {"item":"surge-alloy","amount":2},
+                {"item":"thorium","amount":2},
+                {"item":"blast-compound","amount":2}
+            ]
+        }
+    },
+    "requirements":[
+        {"item":"surge-alloy","amount":55},
+        {"item":"phase-fabric","amount":35},
+        {"item":"thorium","amount":65},
+        {"item":"plastanium","amount":45},
+        {"item":"silicon","amount":60},
+        {"item":"monocrystalline-silicon","amount":30}
+    ],
+    "category":"crafting",
+    "research":"alloy-smelter"
+}

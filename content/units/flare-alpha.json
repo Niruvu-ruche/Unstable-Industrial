@@ -1,0 +1,40 @@
+{
+    "type":"flying",
+    "speed":3,
+    "accel":0.5,
+    "drag":0.05,
+    "hitSize":6,
+    "flying":true,
+    "health":60,
+    "commandLimit":0,
+    "itemCapacity":15,
+    "armor":0,
+    "rotateSpeed":9,
+    "range":128,
+    "weapons":[
+        {
+            "inaccuracy":3,
+            "x":-2,
+            "mirror":true,
+            "reload":15,
+            "alternate":true,
+            "bullet":{
+                "type":"basicBulletType",
+                "damage":9,
+                "speed":2.5,
+                "height":8,
+                "width":6,
+                "lifeTime":150
+            }
+        }
+    ],
+    "lowAltitude":true,
+    "rotateShooting":true,
+    "circleTarget":true,
+    "research":{
+        "parent":"alpha-factory",
+        "requirements":[
+            { "item" : "copper" , "amount" : 0 }
+        ]
+    }
+}

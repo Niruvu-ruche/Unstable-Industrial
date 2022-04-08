@@ -1,0 +1,39 @@
+{
+    "type":"powerTurret",
+    "targetAir":true,
+    "targetGround":true,
+    "rotateSpeed":6,
+    "health":616,
+    "size":2,
+    "reloadTime":120,
+    "inaccuracy":0,
+    "shots":4,
+    "shotCone":135,
+    "powerUse":4.2,
+    "canOverdrive":false,
+    "acceptCoolant":false,
+    "range":200,
+    "shootSound":"laser",
+    "shootType":{
+        "type":"laserBoltBulletType",
+        "speed":5.5,
+        "lifeTime":40,
+        "pierceCap":2,
+        "homingPower":0.1,
+        "absorbable":false,
+        "hittable":false,
+        "reflectable":false,
+        "homingRange":16,
+        "status":"fixed-speed-lv2",
+        "statusDuration":90,
+        "damage":1
+    },
+    "requirements":[
+        { "item" : "copper" , "amount" : 55 },
+        { "item" : "graphite" , "amount" : 45 },
+        { "item" : "silicon" , "amount" : 25 },
+        { "item" : "titanium" , "amount" : 35 }
+    ],
+    "category":"effect",
+    "research":"speed-governor"
+}

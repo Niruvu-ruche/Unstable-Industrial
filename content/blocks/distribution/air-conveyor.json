@@ -1,0 +1,15 @@
+{
+    "type":"StackConveyor",
+    "health":30,
+    "idleSound":"none",
+    "requirements":[
+        { "item" : "copper" , "amount" : 3 },
+        { "item" : "metaglass" , "amount" : 2 },
+        { "item" : "graphite" , "amount" : 3 }
+    ],
+    "category":"distribution",
+    "placeableLiquid":true,
+    "itemCapacity":5,
+    "speed":0.10,
+    "research":"conveyor"
+}

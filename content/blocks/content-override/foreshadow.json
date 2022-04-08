@@ -1,0 +1,10 @@
+{ 
+         "requirements":[
+     {"item":"copper","amount":950},
+     {"item":"metaglass","amount":600},
+     {"item":"plastanium","amount":200},
+     {"item":"surge-alloy","amount":300},
+     {"item":"silicon","amount":450},
+     {"item":"monocrystalline-silicon","amount":250}
+]
+}

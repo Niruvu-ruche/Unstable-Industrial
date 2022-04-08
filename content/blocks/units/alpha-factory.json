@@ -1,0 +1,32 @@
+{
+    "type":"unitFactory",
+    "size":2,
+    "consumes":{
+        "power":0.8
+    },
+    "plans":[
+        {
+         "unit":"flare-alpha",
+         "time":"450",
+         "requirements":[
+               { "item" : "graphite" , "amount" : 5 },
+               { "item" : "copper" , "amount" : 10 }
+            ] 
+        },
+        {
+            "unit":"dagger-alpha",
+            "time":"600",
+            "requirements":[
+                  { "item" : "graphite" , "amount" : 10 },
+                  { "item" : "copper" , "amount" : 10 }
+               ] 
+           }
+    ],
+    "category":"units",
+    "research":"core-shard",
+    "requirements":[
+        { "item" : "graphite" , "amount" : 65 },
+        { "item" : "lead" , "amount" : 45 },
+        { "item" : "copper" , "amount" : 55 }
+    ]
+}

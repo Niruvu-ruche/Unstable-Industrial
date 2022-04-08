@@ -1,0 +1,21 @@
+{
+    "type":"wall",
+    "size":2,
+    "health":5280,
+    "lightningChance":0.6,
+    "lightningLength":32,
+    "lightningDamage":75,
+    "destroyBullet":{
+        "type":"bombBulletType",
+        "splashDamage":600,
+        "splashRadius":48,
+        "knockback":4,
+        "instantDisappear":true
+    },
+    "absorbLasers":true,
+    "requirements":[
+        {"item": "unstable-alloy", "amount": 32}
+    ],
+    "research":"unstable-wall",
+    "category":"defense"
+}

@@ -1,0 +1,33 @@
+{
+    "type":"PowerTurret",
+    "targetAir":true,
+    "targetGround":true,
+    "rotateSpeed":6,
+    "health":220,
+    "size":1,
+    "reloadTime":90,
+    "inaccuracy":0,
+    "shootSound":"lasershoot",
+    "powerUse":1.2,
+    "range":160,
+    "canOverdrive":false,
+    "acceptCoolant":false,
+    "shootType":{
+        "type":"laserBoltBulletType",
+        "speed":4.5,
+        "lifetime":40,
+        "absorbable":false,
+        "hittable":false,
+        "reflectable":false,
+        "status":"fixed-speed-lv1",
+        "statusDuration":48,
+        "damage":1
+    },
+    "requirements":[
+        {"item":"copper","amount":20},
+		{"item":"lead","amount":20},
+		{"item":"silicon","amount":15}
+    ],
+    "category":"effect",
+    "research":"duo"
+}

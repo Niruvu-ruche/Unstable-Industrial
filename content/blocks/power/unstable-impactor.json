@@ -1,0 +1,40 @@
+{
+    "type":"impactReactor",
+    "size":5,
+    "hasLiquid":true,
+    "health":1360,
+    "warmupSpeed":0.002,
+    "itemDuration":180,
+    "powerProduction":483,
+    "consumes":{
+        "power":31,
+        "liquid":{
+            "liquid":"cryofluid",
+            "amount":1.2
+        },
+        "items":{
+            "items":[
+                {
+                    "item":"unstable-alloy",
+                    "amount":1
+                }
+            ]
+        }
+    },
+    "plasma1":"b60059",
+    "plasma2":"ff007d",
+    "liquidCapacity":144,
+    "requirements":[
+        { "item" : "lead" , "amount" : 650 },
+        { "item" : "metaglass" , "amount" : 350 },
+        { "item" : "graphite" , "amount" : 550 },
+        { "item" : "thorium" , "amount" : 255 },
+        { "item" : "monocrystalline-silicon" , "amount" : 350 },
+        { "item" : "unstable-alloy" , "amount" : 180 },
+        { "item" : "surge-alloy" , "amount" : 325 }
+    ],
+    "category":"power",
+    "ambientSoundVolume":0.2,
+    "ambientSound":"pulse",
+    "research":"impact-reactor"
+}

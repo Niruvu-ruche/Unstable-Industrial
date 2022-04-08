@@ -1,0 +1,46 @@
+{
+    "type":"genericSmelter",
+    "health":320,
+    "itemCapacity":30,
+    "outputItem":{
+        "item":"unstable-alloy",
+        "amount":3
+    },
+    "size":4,
+    "hasPower":true,
+    "hasLiquid":true,
+    "hasItems":true,
+    "drawer":{
+        "type":"DrawLiquid",
+        "useOutputSprite":true
+    },
+    "craftTime":35,
+    "updateEffect":"smoke",
+    "consumes":{
+        "power":9,
+        "items":{
+            "items":[
+                { "item": "surge-alloy", "amount": 8},
+			    { "item": "thorium", "amount": 8},
+			    { "item": "blast-compound", "amount": 8}
+            ]
+        },
+        "liquid":{
+            "liquid":"cryofluid",
+            "amount":0.8
+        }
+    },
+    "requirements":[
+        { "item" : "surge-alloy" , "amount" : 65 },
+		{ "item" : "phase-fabric" , "amount" : 75 },
+		{ "item" : "thorium" , "amount" : 75 },
+		{ "item" : "plastanium" , "amount" : 65 },
+		{ "item" : "unstable-alloy" , "amount" : 40 },
+		{ "item" : "silicon" , "amount" : 60 },
+		{ "item" : "monocrystalline-silicon" , "amount" : 70 }
+    ],
+    "category":"crafting",
+    "research":"unstable-alloy-smelter",
+    "idleSound":"respawning",
+    "idleSoundVolume":0.5
+}

@@ -1,0 +1,21 @@
+{
+    "type":"wall",
+    "size":1,
+    "health":1320,
+    "lightningChance":0.375,
+    "lightningLength":24,
+    "lightningDamage":45,
+    "absorbLasers":true,
+    "destroyBullet":{
+        "type":"bombBulletType",
+        "splashDamage":200,
+        "splashRadius":48,
+        "knockback":4,
+        "instantDisappear":true
+    },
+    "requirements":[
+        {"item": "unstable-alloy", "amount": 8}
+    ],
+    "research":"surge-wall-large",
+    "category":"defense"
+}

@@ -1,0 +1,35 @@
+{
+    "type":"PowerTurret",
+    "rotateSpeed":6,
+    "health":1440,
+    "size":4,
+    "reloadTime":10,
+    "targetAir":true,
+    "targetGround":true,
+    "range":220,
+    "xRand":4,
+    "inaccuracy":12,
+    "shootSound":"laser",
+    "shootEffect":"lancerLaserShoot",
+    "powerUse":13,
+    "shootType":{
+        "type":"laserBulletType",
+        "damage":510,
+        "lifetime":15,
+        "length":242,
+        "width":12,
+        "hitSize":9,
+        "hitEffect":"hitLancer"
+    },
+    "requirements":[
+        {"item":"unstable-alloy","amount":85},
+		{"item":"copper","amount":265},
+		{"item":"silicon","amount":175},
+        {"item":"graphite","amount":205},
+        {"item":"monocrystalline-silicon","amount":55},
+        {"item":"plastanium","amount":145},
+        {"item":"titanium","amount":165}
+    ],
+    "research":"lancer",
+    "category":"turret"
+}

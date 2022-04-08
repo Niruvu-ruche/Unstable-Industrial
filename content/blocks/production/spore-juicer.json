@@ -1,0 +1,33 @@
+{
+    "type":"GenericSmelter",
+    "itemCapacity":30,
+    "outputLiquid":{"liquid": "oil","amount": 16.8 },
+    "size":3,
+    "liquidCapacity":210,
+    "craftTime":24,
+    "updateEffect":"none",
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+    "drawer":{
+        "type":"DrawLiquid",
+        "useOutputSprite":true
+        },
+    "consumes":{
+        "power":1.75,
+        "items":{
+            "items":[
+                {"item":"spore-pod","amount":2}
+            ]
+        }
+    },
+    "requirements":[
+        {"item":"lead","amount":55},
+        {"item":"silicon","amount":70},
+        {"item":"plastanium","amount":55},
+        {"item":"titanium","amount":65},
+        {"item":"monocrystalline-silicon","amount":25}
+    ],
+    "category":"crafting",
+    "research":"spore-press"
+}

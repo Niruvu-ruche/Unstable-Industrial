@@ -1,0 +1,10 @@
+{
+    "type":"item",
+    "hardness":7,
+    "flammability":1.5,
+    "color":"b60059ff",
+    "radioactivity":2.2,
+    "charge":1.5,
+    "explosiveness":2.5,
+    "research":"Unstable_Alloy_Smelter"
+}
