@@ -4,7 +4,7 @@
     "size":4,
     "reloadTime":15,
     "maxAmmo":80,
-    "range":370,
+    "range":270,
     "burstSpacing":6,
     "inaccuracy":9,
     "xRand":5,
